@@ -3,7 +3,7 @@ Play Economy Inventory microservice
 
 ## Create and publish package
 ```powershell
-$version="1.0.4"
+$version="1.0.5"
 $owner="WallaWast"
 $gh_pat="[PAT HERE]"
 
