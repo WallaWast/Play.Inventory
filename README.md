@@ -4,7 +4,7 @@ Play Economy Inventory microservice
 ## Create and publish package
 ```powershell
 $version="1.0.5"
-$owner="WallaWast"
+$owner="wallawastoo"
 $gh_pat="[PAT HERE]"
 
 dotnet pack src\Play.Inventory.Contracts\ --configuration Release -p:PackageVersion=$version -p:RepositoryUrl=https://github.com/$owner/play.inventory -o ..\packages
@@ -14,7 +14,7 @@ dotnet nuget push ..\packages\Play.Inventory.Contracts.$version.nupkg --api-key 
 
 ## Build the docker image
 ```powershell
-$env:GH_OWNER="WallaWast"
+$env:GH_OWNER="wallawastoo"
 $env:GH_PAT="[PAT HERE]"
 $appname="waplayeconomy"
 $resourcegroup="playeconomy"
