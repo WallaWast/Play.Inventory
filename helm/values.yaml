@@ -1,0 +1,13 @@
+microserviceName: "inventory"
+
+image:
+  repository: waplayeconomy.azurecr.io/play.inventory
+  tag: 1.0.5
+
+envVariables:
+  ServiceSettings__Authority: https://wa-playeconomy.eastus.cloudapp.azure.com/identity-svc
+
+container:
+  port: 5004
+
+identityClientId: c3694ecc-532a-4191-a465-91f2d133485d
